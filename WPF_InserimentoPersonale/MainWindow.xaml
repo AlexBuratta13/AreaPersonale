@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_InserimentoPersonale"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="800">
+        Title="MainWindow" Height="550" Width="800">
     <Grid>
         <StackPanel Orientation="Vertical" VerticalAlignment="Center">
         <Grid>
@@ -35,7 +35,7 @@
         </StackPanel>
 
         <StackPanel Grid.Row="2" Grid.Column="1" VerticalAlignment="Center">
-            <ComboBox Name="cmbQualifica" FontSize="18" Width="170" Height="34" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left"/>
+            <ComboBox Name="cmbQualifica" FontSize="18" Width="170" Height="34" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" SelectionChanged="cmbQualifica_SelectionChanged"/>
         </StackPanel>
 
         <StackPanel Grid.Row="3" Grid.Column="0" VerticalAlignment="Center">
