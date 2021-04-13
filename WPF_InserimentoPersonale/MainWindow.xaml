@@ -35,7 +35,7 @@
         </StackPanel>
 
         <StackPanel Grid.Row="2" Grid.Column="1" VerticalAlignment="Center">
-            <ComboBox Name="cmbQualifica" FontSize="18" Width="170" Height="34" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" SelectionChanged="cmbQualifica_SelectionChanged"/>
+            <ComboBox Name="cmb_Qualifica" FontSize="18" Width="170" Height="34" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" SelectionChanged="cmbQualifica_SelectionChanged"/>
         </StackPanel>
 
         <StackPanel Grid.Row="3" Grid.Column="0" VerticalAlignment="Center">
@@ -43,11 +43,11 @@
         </StackPanel>
 
         <StackPanel Grid.Row="3" Grid.Column="1" VerticalAlignment="Center">
-            <TextBox Name="txtArea" FontSize="18" Width="170" Height="34" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left"/>
+            <TextBox Name="txt_Area" FontSize="18" Width="170" Height="34" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left"/>
         </StackPanel>
 
         <StackPanel Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" VerticalAlignment="Center">
-            <Button x:Name="btnInserisci" Content="Inserisci" FontSize="18" Width="170" HorizontalAlignment="Center"/>
+            <Button x:Name="btn_Inserisci" Content="Inserisci" FontSize="18" Width="170" HorizontalAlignment="Center"/>
         </StackPanel>
 
         <StackPanel Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" VerticalAlignment="Center">
@@ -59,11 +59,11 @@
         </StackPanel>
 
         <StackPanel Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" VerticalAlignment="Center">
-            <Button x:Name="btnNuovoInserimento" Content="Nuovo Inserimento" FontSize="18" Width="170" HorizontalAlignment="Center"/>
+            <Button x:Name="btn_NuovoInserimento" Content="Nuovo Inserimento" FontSize="18" Width="170" HorizontalAlignment="Center"/>
         </StackPanel>
 
         <StackPanel Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="2" VerticalAlignment="Center">
-            <Button x:Name="btnMostraFile" Content="Mostra File" FontSize="18" Width="170" HorizontalAlignment="Center"/>
+            <Button x:Name="btn_MostraFile" Content="Mostra File" FontSize="18" Width="170" HorizontalAlignment="Center"/>
         </StackPanel>
 
     </Grid>

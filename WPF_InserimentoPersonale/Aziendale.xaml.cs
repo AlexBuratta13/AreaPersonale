@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ShowFile
+namespace WPF_InserimentoPersonale
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Aziendale.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Aziendale : Page
     {
-        public MainWindow()
+        public Aziendale()
         {
             InitializeComponent();
         }
