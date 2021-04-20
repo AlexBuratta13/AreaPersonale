@@ -18,11 +18,12 @@ namespace WPF_InserimentoPersonale
     /// <summary>
     /// Interaction logic for MostraFile.xaml
     /// </summary>
-    public partial class MostraFile : Page
+    public partial class MostraFile : Window
     {
         public MostraFile()
         {
             InitializeComponent();
         }
+
     }
 }

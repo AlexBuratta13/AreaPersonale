@@ -41,8 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Costanti.cs" />
     <Compile Include="Persona.cs" />
-    <Compile Include="PersonaFisica.cs" />
     <Compile Include="PersonaleAziendale.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

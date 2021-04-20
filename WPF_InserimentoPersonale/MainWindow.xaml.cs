@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using LibraryPersonale;
 
 namespace WPF_InserimentoPersonale
 {
@@ -20,9 +21,16 @@ namespace WPF_InserimentoPersonale
     /// </summary>
     public partial class MainWindow : Window
     {
+        Persona p;
+        string[] qualifica = new string[] { "1", "2", "3", "4" };
         public MainWindow()
         {
             InitializeComponent();
+        }
+        private void cmbQualifica_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            foreach (string s in qualifica)
+                cmb_Qualifica.Items.Add(s);
         }
     }
 }

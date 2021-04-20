@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibraryPersonale
 {
-    public class PersonaFisica
+    public class Costanti
     {
     }
 }
