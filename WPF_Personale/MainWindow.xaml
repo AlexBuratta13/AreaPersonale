@@ -5,8 +5,51 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Personale"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="500">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.ColumnSpan="2" Content="Inserimento Personale Aziendale" HorizontalContentAlignment="Center" FontWeight="Bold" Foreground="Red" FontSize="18"  ></Label>
+
+        <StackPanel Grid.Column="0" Grid.Row="1" HorizontalAlignment="right">
+            <Label Padding="0,0,35,0" Content="Qualifica"></Label>
+        </StackPanel>
+
+        <StackPanel Grid.Column="0" Grid.Row="2" HorizontalAlignment="right">
+            <Label Padding="0,0,55,0" Content="Area"></Label>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left">
+            <ComboBox x:Name="cmbQualifica" Width="100" Height="20" SelectionChanged="cmbQualifica_SelectionChanged"></ComboBox>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left">
+            <TextBox x:Name="txtArea" Width="100" Height="20"></TextBox>
+        </StackPanel>
+
+        <Button x:Name="btnInserisci" Content="Inserisci" Grid.Row="3" Grid.ColumnSpan="2" Width="100" Height="20" VerticalAlignment="Center"></Button>
+
+        <StackPanel Grid.ColumnSpan="2" Grid.Row="4" Grid.RowSpan="2" HorizontalAlignment="Center">
+            <Label Content="Riepilogo" HorizontalAlignment="Center"></Label>
+            <ListBox Height="60" Width="250"></ListBox>
+        </StackPanel>
+
+        <Button x:Name="btnInserimento" Content="Nuovo Inserimento" Grid.ColumnSpan="2" Grid.Row="6" Width="120" Height="20" VerticalAlignment="Bottom"></Button>
+        <Button x:Name="btnMostraFile" Content="Mostra File" Grid.ColumnSpan="2" Grid.Row="7" Width="120" Height="20" VerticalAlignment="Center"></Button>
+
     </Grid>
 </Window>

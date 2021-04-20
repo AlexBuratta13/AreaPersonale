@@ -24,5 +24,10 @@ namespace WPF_Personale
         {
             InitializeComponent();
         }
+
+        private void cmbQualifica_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
