@@ -1,7 +1,7 @@
-﻿<Application x:Class="WPF_InserimentoPersonale.App"
+﻿<Application x:Class="WPF_Personale.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:WPF_InserimentoPersonale"
+             xmlns:local="clr-namespace:WPF_Personale"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

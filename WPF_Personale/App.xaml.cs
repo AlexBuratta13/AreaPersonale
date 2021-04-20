@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace WPF_InserimentoPersonale
+namespace WPF_Personale
 {
     /// <summary>
     /// Interaction logic for App.xaml

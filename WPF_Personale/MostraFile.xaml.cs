@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WPF_InserimentoPersonale
+namespace WPF_Personale
 {
     /// <summary>
-    /// Interaction logic for Aziendale.xaml
+    /// Interaction logic for MostraFile.xaml
     /// </summary>
-    public partial class Aziendale : Page
+    public partial class MostraFile : Window
     {
-        public Aziendale()
+        public MostraFile()
         {
             InitializeComponent();
         }

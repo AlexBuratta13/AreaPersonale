@@ -13,17 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WPF_InserimentoPersonale
+namespace WPF_Personale
 {
     /// <summary>
-    /// Interaction logic for MostraFile.xaml
+    /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MostraFile : Window
+    public partial class MainWindow : Window
     {
-        public MostraFile()
+        public MainWindow()
         {
             InitializeComponent();
         }
-
     }
 }

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_InserimentoPersonale", "WPF_InserimentoPersonale\WPF_InserimentoPersonale.csproj", "{5E5EC540-6F2B-4F5C-B1BE-E614746B453B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryPersonale", "LibraryPersonale\LibraryPersonale.csproj", "{83E16FF5-7A6C-447D-8077-6FCEBFB91245}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Personale", "WPF_Personale\WPF_Personale.csproj", "{4B0EBE28-EBFF-42B4-8820-D65AF8334DF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5E5EC540-6F2B-4F5C-B1BE-E614746B453B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E5EC540-6F2B-4F5C-B1BE-E614746B453B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E5EC540-6F2B-4F5C-B1BE-E614746B453B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E5EC540-6F2B-4F5C-B1BE-E614746B453B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{83E16FF5-7A6C-447D-8077-6FCEBFB91245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{83E16FF5-7A6C-447D-8077-6FCEBFB91245}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83E16FF5-7A6C-447D-8077-6FCEBFB91245}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83E16FF5-7A6C-447D-8077-6FCEBFB91245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B0EBE28-EBFF-42B4-8820-D65AF8334DF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B0EBE28-EBFF-42B4-8820-D65AF8334DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B0EBE28-EBFF-42B4-8820-D65AF8334DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B0EBE28-EBFF-42B4-8820-D65AF8334DF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
